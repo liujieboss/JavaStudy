@@ -71,6 +71,6 @@ public class Demo1List {
         Optional<Integer> findFirst=list.stream().parallel().filter(x->x>6).findFirst();
         System.out.println("使用Stream静态方法generate："+findFirst.get());
         
-
+//        需要进行一些额外注释
     }
 }
